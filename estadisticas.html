@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="/matches.css" rel="stylesheet"/>
+
+ </head>
+  <body class="bg-light">
+        
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Main navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/home.html"><img src="/img/Logo La Liga Spain.png" width="150px"> </a>
+          </button>
+      
+          <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/matches.html">Partidos |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/clasification.html">Clasificación |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/estadisticas.html">Estadísticas</a>
+                </li>
+            </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="-Escribe aquí-" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+        <main class="container">
+            
+        <h1 class="display-1 text-center">Estadísticas</h1>
+
+        <table class="table table-dark table-striped table-hover" id="myTable">
+          <thead>
+            <tr>
+              <th scope="col" colspan="2">EQUIPO</th>
+              <th scope="col">GOLES</th>
+              <th scope="col">PARTIDOS</th>
+              <th scope="col">AVERAGE</th>
+          
+            </tr>
+          </thead>
+  
+          <tbody id="tbody">
+          </tbody>
+        </table>
+
+    </main>
+    <!-- <script src="matches.js"></script> -->
+    <script src="tablaEstadisticas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
