@@ -1,2 +1,0 @@
-# ligaOnline
-Proyecto2
